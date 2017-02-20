@@ -1,5 +1,6 @@
 ﻿Pour se connecter à la BDD MySQL :
-host : sql11.freemysqlhosting.net
-name : sql11159932
-user : sql11159932
-password : voir mes mails
+Server: sql11.freemysqlhosting.net
+Name: sql11159932
+Username: sql11159932
+Password: 4XSDxSTSvy
+Port number: 3306
