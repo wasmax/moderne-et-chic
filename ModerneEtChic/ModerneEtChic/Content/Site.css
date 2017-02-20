@@ -16,3 +16,20 @@ textarea {
     max-width: 280px;
 }
 
+.mainmenu li a {
+    padding: 10px;
+    display: block;
+    vertical-align: middle;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.mainmenu li a:hover {
+    border-bottom: 3px solid orange;
+    transition: none;
+}
+
+.mainmenu li.shop_icon a:hover{
+    border: 1px solid rgb(57, 74, 95);
+    transition: none;
+}
