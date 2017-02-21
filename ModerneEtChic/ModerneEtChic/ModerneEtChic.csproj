@@ -97,10 +97,11 @@
     <Content Include="Content\images\footer\paypal-4.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\menu_icon_img.png" />
-    <Content Include="Content\images\Slider\1.jpg" />
-    <Content Include="Content\images\Slider\2.jpg" />
-    <Content Include="Content\images\Slider\3.jpg" />
-    <Content Include="Content\images\Slider\4.jpg" />
+    <Content Include="Content\images\Slider\image1.jpg" />
+    <Content Include="Content\images\Slider\image2.jpg" />
+    <Content Include="Content\images\Slider\image3.jpg" />
+    <Content Include="Content\images\Slider\image4.jpg" />
+    <Content Include="Content\images\Slider\image5.jpg" />
     <Content Include="Content\mobile\meanmenu.min.css" />
     <Content Include="Content\responsive.css" />
     <Content Include="Content\rs-plugin\settings.css" />
