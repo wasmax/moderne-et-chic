@@ -627,13 +627,14 @@ table tr td {
 [8.1 Footer-Top ]
 --------------------------------*/
 .footer_top {
-  background: rgb(32, 43, 48) none repeat scroll 0 0;
+  background: rgb(210, 200, 172) none repeat scroll 0 0;
   padding: 40px 0;
 }
 .newsletter h4 {
   font-family: 'Bebas';
   font-size: 30px;
   padding-top: 10px;
+  color : #263547;
 }
 .newsletter:focus {border: 1px solid #3A4B60;}
 .newsletter input {
@@ -657,7 +658,7 @@ table tr td {
 /*-------------------------------
 [8.2 Footer-Middel ]
 --------------------------------*/
-.footer_middel {background: rgb(23, 29, 32) none repeat scroll 0 0;}
+.footer_middel {background: rgb(88, 96, 94) none repeat scroll 0 0;}
 .footer_second {background: rgb(255, 255, 255) none repeat scroll 0 0;}
 
 .footer_link p {
