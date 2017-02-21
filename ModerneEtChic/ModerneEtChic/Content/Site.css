@@ -9,24 +9,51 @@
     padding-right: 15px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.searchbox-input{
+    max-width: 326px;
+    font-family: 'Josefin Sans';
+}
+
+.searchbox-input:focus{
+    outline-width: 0;
+}
+
+.mainmenu ul{
+    display: table-row;
+}
+
+.mainmenu ul li{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .mainmenu li a {
-    padding: 10px;
-    display: block;
+    display: table-cell;
     vertical-align: middle;
+    padding: 10px;
     margin-right: 5px;
     text-align: center;
+    font-family: 'Josefin Sans';
+    display: block;
+    width: 107px;
+    /* height: 60px; */
+}
+
+.mainmenu li .one-line{
+    height: 60px;
+    line-height: 40px;
+}
+
+.news_input{
+    font-family: 'Josefin Sans';
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .mainmenu li a:hover {
     border-bottom: 3px solid orange;
     transition: none;
+    height: 60px;
 }
 
 .mainmenu li.shop_icon a:hover{

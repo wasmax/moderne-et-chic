@@ -51,57 +51,8 @@ Version: 1.0
 
 /*============ fonts ==========*/
 @font-face {
-    font-family: 'nexa_bookregular';
-    src: url('fonts/nexa-book.eot');
-    src: url('fonts/nexa-book.eot?#iefix') format('embedded-opentype'),
-         url('fonts/nexa-book.woff2') format('woff2'),
-         url('fonts/nexa-book.woff') format('woff'),
-         url('fonts/nexa-book.ttf') format('truetype'),
-         url('fonts/nexa-book.svg#nexa_bookregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'nexa_regularregular';
-    src: url('fonts/nexaregular.eot');
-    src: url('fonts/nexaregular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/nexaregular.woff2') format('woff2'),
-         url('fonts/nexaregular.woff') format('woff'),
-         url('fonts/nexaregular.ttf') format('truetype'),
-         url('fonts/nexaregular.svg#nexa_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'nexa_xboldregular';
-    src: url('fonts/nexa-xbold.eot');
-    src: url('fonts/nexa-xbold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/nexa-xbold.woff2') format('woff2'),
-         url('fonts/nexa-xbold.woff') format('woff'),
-         url('fonts/nexa-xbold.ttf') format('truetype'),
-         url('fonts/nexa-xbold.svg#nexa_xboldregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'nexa_blackregular';
-    src: url('fonts/nexablack.eot');
-    src: url('fonts/nexablack.eot?#iefix') format('embedded-opentype'),
-         url('fonts/nexablack.woff2') format('woff2'),
-         url('fonts/nexablack.woff') format('woff'),
-         url('fonts/nexablack.ttf') format('truetype'),
-         url('fonts/nexablack.svg#nexa_blackregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'nexa_boldregular';
-    src: url('fonts/nexa-bold.eot');
-    src: url('fonts/nexa-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/nexa-bold.woff2') format('woff2'),
-         url('fonts/nexa-bold.woff') format('woff'),
-         url('fonts/nexa-bold.ttf') format('truetype'),
-         url('fonts/nexa-bold.svg#nexa_boldregular') format('svg');
+    font-family: 'Bebas';
+    src: url('fonts/BebasNeue.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -141,7 +92,7 @@ a:focus {
   padding: 0;
 }
 .float-left{float:left;}
-.float-right{float:right;}
+.float-right{float:right;padding: 0px !important;}
 img {
   max-width:100%;
   height:auto;
@@ -230,7 +181,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   background:#fff;
-  line-height:17px;
+  /* line-height: 42px; */
   margin: 0;
   font-weight:400;
   padding: 0;
@@ -275,14 +226,14 @@ body {
 /*-------------------------
 [2.1.1.2 Header-Other-Icon ]
 -------------------------*/
-.social_others  li a {margin-left: 10px;}
+.social_others  li a {margin-left: 10px;font-family: 'Josefin Sans';}
 .social_others li {margin-left:10px;}
 .social_others a,.header_top_right ul li a{
   color: rgb(135, 135, 135);
-  font-size: 13px;
+  font-size: 17px;
   text-transform: inherit;
 }
-.header_top_right.text-right a,.shop_icon {margin-right: 10px;}
+.header_top_right.text-right a,.shop_icon {margin-right: 10px;font-family: 'Bebas';}
 .social_others a i {
   color: #3a4b60;
   font-size: 15px;
@@ -347,8 +298,9 @@ li.searchbox.searchbox-open {padding-top: 0;}
 }
 .mainmenu a {
   font-size: 14px;
-  line-height: 16px;
-  padding: 10px 15px;
+  line-height: 20px;
+  /* vertical-align: top; */
+  /* padding: 10px 15px; */
   margin-left: 5px;
   color:rgb(135, 135, 135);
 }
@@ -371,7 +323,7 @@ li.searchbox.searchbox-open {padding-top: 0;}
 .mainmenu a i {top: 0;}
 .mainmenu a:hover i {top: 5px;}
 .guarantee_text p {padding-bottom: 20px;}
-.footer_link li{margin-bottom: 20px;}
+.footer_link li{margin-bottom: 10px;}
 /*==========================================
 [3. Slider-Section ]
 ===========================================*/
@@ -679,15 +631,17 @@ table tr td {
   padding: 40px 0;
 }
 .newsletter h4 {
-  font-family: "nexa_xboldregular";
-  font-size: 20px;
+  font-family: 'Bebas';
+  font-size: 30px;
   padding-top: 10px;
 }
 .newsletter:focus {border: 1px solid #3A4B60;}
 .newsletter input {
   border: 2px solid #ffffff;
   font-size: 14px;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  height: 44px;
+  /* font-family: 'Bebas'; */
 }
 .news_input {
   width: 75%;
@@ -695,8 +649,8 @@ table tr td {
 .subscribe_btn {
   background: rgb(32, 43, 48) none repeat scroll 0 0;
   color: #ffffff !important;
-  font-family: nexa_regularregular;
-  font-size: 16px !important;
+  font-family: "Bebas";
+  font-size: 25px !important;
   width: 25%;
 }
 .newsletter input::-moz-placeholder,.newsletter input::-webkit-input-placeholder{opacity:1;color:#3a4b60;}
@@ -704,11 +658,16 @@ table tr td {
 [8.2 Footer-Middel ]
 --------------------------------*/
 .footer_middel {background: rgb(23, 29, 32) none repeat scroll 0 0;}
+.footer_second {background: rgb(255, 255, 255) none repeat scroll 0 0;}
+
 .footer_link p {
   border-bottom: 1px solid #3A4B60;
   padding-bottom: 10px;
-  width: 60%;
-  margin-bottom: 35px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-family: 'Bebas';
+  font-size: 20px;
+  text-align: center;
 }
 /*-------------------------------
 [8.2.1 Footer-Link ]
@@ -716,7 +675,7 @@ table tr td {
 .footer_link.address span {font-weight: 600;}
 .footer_link li {
   list-style: outside none none;
-  font-family: nexa_regularregular;
+  font-family: "Raleway", sans-serif;
 }
 .footer_link li:last-child {margin-bottom: 0;}
 .footer_link li a,.address li,.copyright a {text-transform: inherit;}

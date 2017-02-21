@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Moderne & Chic</title>
     <!-- FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
 
     <!-- CSS -->
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="header_top">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <div class="header_top_left float-left">
                             <ul class="social_icon">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -32,13 +32,13 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <div class="header_top_right text-right">
                             <ul>
                                 <li><a href="#">Mon Compte</a></li>
                                 <li><a href="checkout.html">Panier</a></li>
-                                <li><a href="#">M'enregistrer</a></li>
-                                <li><a href="#">Me Connecter</a></li>
+                                <li><a href="#">M'inscrire</a></li>
+                                <li><a href="#">Connection</a></li>
                                 <li class="searchbox">
                                     <input type="search" placeholder="Rechercher......" name="search" class="searchbox-input" onkeyup="buttonUp();" required="">
                                     <input type="submit" class="searchbox-submit" value="">
@@ -52,26 +52,25 @@
         </div>
         <div class="container">
             <div class="row mega_relative">
-                <div class="col-xs-12 col-sm-2">
+                <div class="col-xs-12 col-sm-3">
                     <div class="logo head_lo">
-                        <a href="index.html"><img src="~/Content/images/logo.png" alt="Modern & Chic"></a>
+                        <a href="index.html">
+                            <p style="font-family: 'Bebas'; display: inline; font-size: 26pt;">MODERNE </p>
+                            <p style="font-family: 'Josefin Sans'; display: inline; font-size: 25pt;"> & CHIC</p>
+                        </a>
                     </div>
                 </div>
-                <div class="col-sm-10">
+                <div class="col-sm-9">
                     <div class="mainmenu float-right">
                         <nav>
                             <ul>
+                                <li><a href="#" class="one-line">Bureaux</a></li>
+                                <li><a href="#">Canapés, Fauteuils</a></li>
+                                <li><a href="#">Commodes, Étagères</a></li>
+                                <li><a href="#" class="one-line">Meubles TV</a></li>
+                                <li><a href="#">Petit Rangement</a></li>
                                 <li><a href="#">Tables, Chaises</a></li>
-                                <li><a href="#">Art de la Table</a></li>
-                                <li><a href="#">Cuisine</a></li>
-                                <li><a href="#">Linge de Maison</a></li>
-                                <li><a href="#">Luminaires</a></li>
-                                <li><a href="#">Meubles</a></li>
-                                <li><a href="#">Décoration</a></li>
-                                <li class="shop_icon">
-                                    <a href="cart.html"><img src="Content/images/menu_icon_img.png" alt=""></a>
-                                    <span>2</span>
-                                </li>
+                                <li><a href="#" class="one-line">Décoration</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -84,8 +83,92 @@
         @RenderBody()
     </div>
 
+    <footer>
+        <div class="footer_top footer-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-sm-6" style="width : 50%;">
+                        <div class="newsletter">
+                            <h4>Inscrivez-vous à la NewsLetter !</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-sm-6"  style="width : 50%;">
+                        <div class="newsletter text-right">
+                            <input class="news_input" type="text" value="" placeholder="Entrez votre adresse mail...">
+                            <input class="subscribe_btn" type="button" value="Envoyer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_second footer-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <p>LIVRAISON GRATUITE</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <p>PAIEMENTS 100% SÉCURISÉS</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <p>7 JOURS POUR CHANGER D'AVIS</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <p>RETOURS ACCEPTÉS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_middel footer-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="footer_link address">
+                            <p>ACHETER EN LIGNE</p>
+                            <ul>
+                                <li>Livraison</li>
+                                <li>Paiement Sécurisé</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="footer_link">
+                            <p>SERVICES</p>
+                            <ul>
+                                <li><a href="#">Services en ligne</a></li>
+                                <li><a href="#">Mon Panier</a></li>
+                                <li><a href="#">SAV</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="footer_link res_mar">
+                            <p>Réseaux Sociaux</p>
+                            <ul>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="footer_link res_mar">
+                            <p>À PROPOS DE MODERNE & CHIC</p>
+                            <ul>
+                                <li><a href="#">Qui sommes-nous ?</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Livraison Express GRATUITE !</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
     <!-- JS -->
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/search-box.js"></script>
 </body>
 </html>
