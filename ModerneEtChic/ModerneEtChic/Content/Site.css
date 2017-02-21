@@ -60,3 +60,36 @@
     border: 1px solid rgb(57, 74, 95);
     transition: none;
 }
+
+
+
+
+/*CSS MAXIME WALTER*/
+.safety_site{
+    color: rgb(0, 0, 0);
+    font-family: "Josefin Sans";
+    text-align :center;
+    padding-top : 20px;
+}
+
+.safety_site_icon{
+    color: rgb(0, 0, 0);
+    font-size : 35px;
+    display : block;
+    text-align :center;
+
+    transition:font-size 0.3s;
+     -moz-transition:font-size 0.3s; /* Firefox 4 */
+     -webkit-transition:font-size 0.3s; /* Safari and Chrome */
+     -o-transition:font-size 0.3s;
+}
+
+.safety_highlight{
+    cursor : pointer;
+
+}
+.safety_highlight:hover  .safety_site_icon{
+    color: rgb(0, 0, 0);
+    font-size : 45px;
+}
+

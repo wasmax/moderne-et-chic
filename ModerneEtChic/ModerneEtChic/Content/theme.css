@@ -662,7 +662,7 @@ table tr td {
 .footer_second {background: rgb(255, 255, 255) none repeat scroll 0 0;}
 
 .footer_link p {
-  border-bottom: 1px solid #3A4B60;
+  border-bottom: 1px solid rgb(210, 200, 172);
   padding-bottom: 10px;
   width: 100%;
   margin-bottom: 15px;
