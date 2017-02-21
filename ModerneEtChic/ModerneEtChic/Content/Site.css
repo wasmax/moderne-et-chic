@@ -69,7 +69,7 @@
     color: rgb(0, 0, 0);
     font-family: "Josefin Sans";
     text-align :center;
-    padding-top : 20px;
+    padding-top : 10px;
 }
 
 .safety_site_icon{
@@ -85,7 +85,7 @@
 }
 
 .safety_highlight{
-    cursor : pointer;
+    /*cursor :help;*/
 
 }
 .safety_highlight:hover  .safety_site_icon{
@@ -93,3 +93,60 @@
     font-size : 45px;
 }
 
+
+.safety_highlight:hover  .safety_site_highlight_line{
+    width : 50%;
+    padding-top : 5px;
+}
+.safety_site_highlight_line{
+
+    width : 0%;
+    margin : auto;
+    border-bottom-style : solid;
+    border-bottom-width : 2px;
+    border-bottom-color : rgb(210, 200, 172);
+    opacity : 0.7;
+
+
+        transition:width 0.5s;
+     -moz-transition:width 0.5s; /* Firefox 4 */
+     -webkit-transition:width 0.5s; /* Safari and Chrome */
+     -o-transition:width 0.5s;
+
+}
+
+
+/*SLICK SLIDER (MAX W)*/
+
+
+.slippry_slider img{
+    margin-top : -250px;
+       -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);
+
+    /*-webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);*/
+    
+}
+
+.sy-box{
+    height : 300px;
+}
+
+.sy-slides-wrap img{
+  
+ position: absolute;
+  left: 50%;
+  width: auto;
+  -webkit-transform: translate(-50%,-30%);
+      -ms-transform: translate(-50%,-30%);
+          transform: translate(-50%,-30%);
+}
+
+
+.sy-pager{
+    display : none !important;
+}
