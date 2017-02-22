@@ -133,7 +133,7 @@
 }
 
 .sy-box{
-    height : 300px;
+    height : 550px;
 }
 
 .sy-slides-wrap img{
@@ -141,9 +141,9 @@
  position: absolute;
   left: 50%;
   width: auto;
-  -webkit-transform: translate(-50%,-30%);
-      -ms-transform: translate(-50%,-30%);
-          transform: translate(-50%,-30%);
+  -webkit-transform: translate(-50%,-0%);
+      -ms-transform: translate(-50%,0%);
+          transform: translate(-50%, 0%);
 }
 
 
