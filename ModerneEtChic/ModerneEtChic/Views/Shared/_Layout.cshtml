@@ -16,6 +16,10 @@
     <link rel="stylesheet" type="text/css" href="~/Content/theme.css"/>
     <link rel="stylesheet" type="text/css" href="~/Content/mobile/meanmenu.min.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/responsive.css" />
+
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" type="text/css" href="~/Content/Slippry/dist/slippry.css" />
+
 </head>
 <body>
     <header>
@@ -80,6 +84,36 @@
         </div>
     </header>
 
+
+
+    <ul id="slippry_slider_box" class="slippry_slider">
+        <li>
+            <a href="#slide1">
+                <img src="~/Content/images/Slider/image1.jpg" />
+            </a>
+        </li>
+        <li>
+            <a href="#slide2">
+                <img src="~/Content/images/Slider/image2.jpg" />
+            </a>
+        </li>
+        <li>
+            <a href="#slide3">
+                <img src="~/Content/images/Slider/image3.jpg" />
+            </a>
+        </li>
+        <li>
+            <a href="#slide4">
+                <img src="~/Content/images/Slider/image4.jpg" />
+            </a>
+        </li>
+        <li>
+            <a href="#slide4">
+                <img src="~/Content/images/Slider/image5.jpg" />
+            </a>
+        </li>
+    </ul>
+
     <div class="container body-content">
         @RenderBody()
     </div>
@@ -107,18 +141,22 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-3 safety_highlight">
                         <i class="material-icons safety_site_icon">local_shipping</i>
+                        <div class="safety_site_highlight_line"></div>
                         <div class="safety_site">LIVRAISON GRATUITE</div>
                     </div>
                     <div class="col-sm-6 col-md-3 safety_highlight">
                         <i class="material-icons safety_site_icon">payment</i>
+                        <div class="safety_site_highlight_line"></div>
                         <div class="safety_site">PAIEMENTS 100% SÉCURISÉS</div>
                     </div>
                     <div class="col-sm-6 col-md-3 safety_highlight">
                         <i class="material-icons safety_site_icon">history</i>
+                        <div class="safety_site_highlight_line"></div>
                         <div class="safety_site">7 JOURS POUR CHANGER D'AVIS</div>
                     </div>
                     <div class="col-sm-6 col-md-3 safety_highlight">
                         <i class="material-icons safety_site_icon">swap_horiz</i>
+                        <div class="safety_site_highlight_line"></div>
                         <div class="safety_site">RETOURS ACCEPTÉS</div>
                     </div>
                 </div>
@@ -175,5 +213,11 @@
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <script src="~/Scripts/search-box.js"></script>
+
+    <!-- SLICK JS-->
+    <script type="text/javascript" src="~/Content/Slippry/src/slippry.js"></script>
+    <script type="text/javascript" src="~/Scripts/Slider-Slippry.js"></script>
+
+
 </body>
 </html>

@@ -97,10 +97,22 @@
     <Content Include="Content\images\footer\paypal-4.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\menu_icon_img.png" />
+    <Content Include="Content\images\Slider\image1.jpg" />
+    <Content Include="Content\images\Slider\image2.jpg" />
+    <Content Include="Content\images\Slider\image3.jpg" />
+    <Content Include="Content\images\Slider\image4.jpg" />
+    <Content Include="Content\images\Slider\image5.jpg" />
     <Content Include="Content\mobile\meanmenu.min.css" />
     <Content Include="Content\responsive.css" />
     <Content Include="Content\rs-plugin\settings.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\Slippry\dist\slippry.css" />
+    <Content Include="Content\Slippry\dist\slippry.min.js" />
+    <Content Include="Content\Slippry\Gruntfile.js" />
+    <Content Include="Content\Slippry\images\arrows.svg" />
+    <Content Include="Content\Slippry\images\sy-loader.gif" />
+    <Content Include="Content\Slippry\index.html" />
+    <Content Include="Content\Slippry\src\slippry.js" />
     <Content Include="Content\theme.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
@@ -113,11 +125,18 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\Slippry\bower.json" />
+    <Content Include="Content\Slippry\config.rb" />
+    <Content Include="Content\Slippry\LICENSE" />
+    <Content Include="Content\Slippry\package.json" />
+    <Content Include="Content\Slippry\README.md" />
+    <Content Include="Content\Slippry\src\slippry.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\search-box.js" />
+    <Content Include="Scripts\Slider-Slippry.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
